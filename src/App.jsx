@@ -20,7 +20,8 @@ function App() {
 
   // Function to fetch current weather and forecast data
   const searchLocation = async (e) => {
-    if (e.key === "Enter") {
+    if (e.type === "click" || e.key === "Enter") {
+      if (!location.trim()) return; // Prevent empty searches
       setLoading(true);
       setError(""); // Reset error state before each fetch
       try {
@@ -55,7 +56,10 @@ function App() {
       {/* Search Input */}
       <div className="relative text-center justify-center items-center p-4 w-full max-w-lg">
         {/* Search Icon */}
-        <SearchIcon className="absolute right-12 top-1/2 transform -translate-y-1/2 w-5 h-5 text-gray-600" />
+        <SearchIcon
+          className="absolute right-12 top-1/2 transform -translate-y-1/2 w-5 h-5 text-gray-600 cursor-pointer"
+          onClick={searchLocation}
+        />
 
         <label
           htmlFor="location"
