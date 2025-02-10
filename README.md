@@ -1,6 +1,7 @@
 # Weather App - React & Tailwind CSS
 
 <img width="899" alt="Image" src="https://github.com/user-attachments/assets/0ebdbe60-0dba-4bda-94ff-2ca3bd17d43e" />
+
 This image showcases the user interface of the weather application, providing real-time weather updates and forecasts.
 
 ## Overview
