@@ -15,6 +15,9 @@ This is a weather app built using **React** and **Tailwind CSS**. The app fetche
 - Responsive design that works on both desktop and mobile devices.
 - Search functionality to check the weather of any location.
 
+## Hosted On netlify:
+- [Website deployed via Netlify](https://weather-app-react-tailwind-es6.netlify.app/)
+
 ## Setup Instructions
 
 To get the project up and running locally, follow these steps:
