@@ -1,5 +1,7 @@
 # Weather App - React & Tailwind CSS
 
+<img width="899" alt="Image" src="https://github.com/user-attachments/assets/0ebdbe60-0dba-4bda-94ff-2ca3bd17d43e" />
+
 This is a weather app built using **React** and **Tailwind CSS**. The app fetches real-time weather data and a 4-day forecast from the OpenWeatherMap API.
 
 ## Features
